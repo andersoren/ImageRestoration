@@ -11,8 +11,12 @@ $$D\frac{du}{dt} = -\Delta u(x,t)$$ which becomes
 $$\frac{du}{dt} = \nabla \cdot (c(\Vert \nabla u \Vert) \nabla u)$$ using the Perona Malik diffusivity equation:
 $c(\Vert(\nabla u \Vert) = \frac{1}{1+(\frac{\Vert(\nabla u \Vert)}{\kappa})^2}.$
 
-Example of results:
-Original in colour:
-![Colour Glacier](https://github.com/andersoren/ImageRestoration/blob/main/Glacier.jpg)
-Result in Grayscale
- 
+EXAMPLE
+
+Original
+
+![Original photo](https://github.com/andersoren/ImageRestoration/blob/main/MountainLine.png)
+
+Result
+
+![Result](https://github.com/andersoren/ImageRestoration/blob/main/MountainLineResult.png)
